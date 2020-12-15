@@ -84,13 +84,13 @@ nav span {
   font-weight: bold;
 }
 
-.a-card .up-img {
+.up-img {
   padding-top: 1.5rem;
   color: #3db997;
   font-weight: bold;
   font-size: 0.8rem;
 }
-.a-card .down-img {
+.down-img {
   padding-top: 1rem;
   color: #c7525b;
   font-weight: bold;
@@ -128,3 +128,35 @@ nav span {
 }
 
 /* ///////////////////////////////////////////////////////////////////// */
+.section-b {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+}
+.b-card {
+  background: #f0f3fa;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.top-b-card,
+.bot-b-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bot-b-card {
+  padding-top: 1.8rem;
+}
+
+.top-b-card .big-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #646778;
+}
+.bot-b-card .big-text {
+  color: #1a1d26;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
