@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* GRID CONTAINER 1 */
+.content {
+  max-width: 375px;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(48px, auto);
+}
+/* /////////////////////////////////// */
+
+/* Nav Section */
+nav {
+  padding-bottom: 2rem;
+}
+nav h1 {
+  margin-bottom: 0.4rem;
+}
+.nav-top {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 1rem;
+}
+nav p,
+nav span {
+  font-weight: 700;
+  color: grey;
+  font-size: 0.9rem;
+}
+.nav-bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* SECTION A */
+
+/* GRID CONTAINER 2 */
+.section-a {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+}
+/* GRID CONTAINER 2 END*/
+/* /////////////////////////////////// */
+
+.a-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  border-radius: 6px;
+  background: #f0f3fa;
+}
+.a-card h1 {
+  font-size: 3.6rem;
+  color: #1a1d26;
+}
+.a-card h4 {
+  font-weight: lighter;
+  letter-spacing: 0.4rem;
+  color: rgba(100, 102, 115, 0.979);
+}
+
+.a-card .first-img {
+  padding-bottom: 1.3rem;
+}
+.a-card .first-img span {
+  font-size: 0.8rem;
+  padding-left: 1rem;
+  color: #656975;
+  font-weight: bold;
+}
+
+.a-card .up-img {
+  padding-top: 1.5rem;
+  color: #3db997;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.a-card .down-img {
+  padding-top: 1rem;
+  color: #c7525b;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.a-card .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fb-card {
+  border-top: 5px solid hsl(208, 92%, 53%);
+}
+#tw-card {
+  border-top: 5px solid #279de3;
+}
+#inst-card {
+  border-top: 5px solid #f5c16d;
+}
+#yout-card {
+  border-top: 5px solid #b40a2e;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* ASIDE SECTION */
+
+.subtitle {
+  padding: 2rem 0;
+  color: #646778;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */

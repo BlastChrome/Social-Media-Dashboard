@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/style.css">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
@@ -16,16 +18,88 @@
 </head>
 <body>  
 
+
+  <!-- Main Grid Container -->
   <div class="content">
-    <nav class="nav"></nav>  
-    <section class="section-a"></section> 
-    <aside class="subtitle"></aside> 
-    <section class="section-b"></section>
+
+    <!-- Nav Bar -->
+    <nav class="nav"> 
+      <div class="nav-top">
+        <h1>Social Media Dashboard</h1> 
+        <p>Total Follower: 23,004</p>
+      </div>  
+      <div class="nav-bot">
+        <span>DarkMode</span> 
+        <span>X</span>
+      </div>
+
+    </nav>   
+
+    <!-- Section A -->
+    <section class="section-a">
+      <!-- Facebook Card -->
+      <div class="a-card" id="fb-card">
+        <div class="img-container first-img">
+          <img src="/images/icon-facebook.svg" alt=""><span>@nathanf</span> 
+        </div>
+        <h1 class="card-big-text">1987</h1> 
+        <h4 class="card-small-text">Followers</h4> 
+        <div class="img-container up-img">
+          <img src="/images/icon-up.svg" alt=""><span>12 Today</span>
+        </div>
+      </div> 
+
+      <!-- Twitter Card -->
+      <div class="a-card" id="tw-card">
+        <div class="img-container first-img">
+          <img src="/images/icon-twitter.svg" alt=""><span>@nathanf</span> 
+        </div>
+        <h1 class="card-big-text">1044</h1> 
+        <h4 class="card-small-text">Followers</h4> 
+        <div class="img-container up-img">
+          <img src="/images/icon-up.svg" alt=""><span>99Today</span>
+        </div>
+      </div>
+
+      <!--Instagram Card  -->
+      <div class="a-card" id="inst-card">
+        <div class="img-container first-img">
+          <img src="/images/icon-instagram.svg" alt=""><span>@nathanf</span> 
+        </div>
+        <h1 class="card-big-text">11k</h1> 
+        <h4 class="card-small-text">Followers</h4> 
+        <div class="img-container up-img">
+          <img src="/images/icon-up.svg" alt=""><span>1099 Today</span>
+        </div>
+      </div> 
+
+      <!-- Youtube Card -->
+      <div class="a-card" id="yout-card">
+        <div class="img-container first-img">
+          <img src="/images/icon-youtube.svg" alt=""><span>@nathanf</span> 
+        </div>
+        <h1 class="card-big-text">8239</h1> 
+        <h4 class="card-small-text">Followers</h4> 
+        <div class="img-container down-img">
+          <img src="/images/icon-down.svg" alt=""><span>144 Today</span>
+        </div>
+      </div>
+
+
+    </section> 
+
+    <!-- Subtitle -->
+    <aside class="subtitle">
+      <h1>Overview - Today</h1>
+    </aside> 
+
+    <!-- Section B -->
+    <section class="section-b">B</section>
   </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Nicholas Jackson</a>.
   </div>
 </body>
 </html>
