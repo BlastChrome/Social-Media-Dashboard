@@ -123,6 +123,7 @@ nav span {
 }
 .nav-bot {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
