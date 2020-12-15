@@ -1,4 +1,4 @@
-var DarkButton = document.querySelector("#dark-button"); 
+var DarkButton = document.querySelector(".slider"); 
 var background = document.querySelector("body");  
 var navText = document.querySelector("h1"); 
 var bigCardBody = document.querySelectorAll('.a-card');  
@@ -7,7 +7,8 @@ var smallCardBody = document.querySelectorAll('.b-card');
 var smallCardText = document.querySelectorAll('.big-text');
 
 
-DarkButton.addEventListener('click', function () {
+DarkButton.addEventListener('click', function (e) { 
+    e.stopPropagation();
     console.log("btn clicked");
     background.classList.toggle('dark-mode-bg');
     navText.classList.toggle('dark-mode-text');    

@@ -67,7 +67,8 @@ html {
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  /* background-color: #2196f3; */
+  background: linear-gradient(180deg, #3f96cc 0%, #51cd97 100%);
 }
 
 input:focus + .slider {
@@ -262,6 +263,9 @@ nav span {
     border-bottom: none;
     padding-bottom: 20px;
     margin-bottom: 0;
+  }
+  .nav-bot {
+    align-items: center;
   }
   .section-a {
     display: grid;
