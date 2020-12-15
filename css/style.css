@@ -10,6 +10,15 @@
 html {
   font-family: Inter, Arial, Helvetica, sans-serif;
 }
+.dark-mode-bg {
+  background: #20222f;
+}
+.dark-mode-bg-2 {
+  background-color: #252b43 !important;
+}
+.dark-mode-text {
+  color: white !important;
+}
 /* ///////////////////////////////////////////////////////////////////// */
 
 /* GRID CONTAINER 1 */
@@ -154,6 +163,9 @@ nav span {
   padding-top: 1.8rem;
 }
 
+.header-text {
+  color: var(--small-txt-color);
+}
 .top-b-card .big-text {
   font-size: 0.9rem;
   font-weight: bold;
