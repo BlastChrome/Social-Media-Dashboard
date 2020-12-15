@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --big-txt-color: #1a1d26;
+  --small-txt-color: #646778;
+  --up-txt-color: #3db997;
+  --down-txt-color: #c7525b;
 }
 html {
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -10,6 +14,7 @@ html {
 
 /* GRID CONTAINER 1 */
 .content {
+  width: 95%;
   max-width: 375px;
   margin: 1rem auto;
   display: grid;
@@ -33,7 +38,7 @@ nav h1 {
 nav p,
 nav span {
   font-weight: 700;
-  color: grey;
+  color: var(--small-txt-color);
   font-size: 0.9rem;
 }
 .nav-bot {
@@ -61,7 +66,8 @@ nav span {
 }
 .a-card h1 {
   font-size: 3.6rem;
-  color: #1a1d26;
+  /* color: #1a1d26;  */
+  color: var(--big-txt-color);
 }
 .a-card h4 {
   font-weight: lighter;
@@ -81,13 +87,14 @@ nav span {
 
 .up-img {
   padding-top: 1.5rem;
-  color: #3db997;
+  /* color: #3db997; */
+  color: var(--up-txt-color);
   font-weight: bold;
   font-size: 0.8rem;
 }
 .down-img {
   padding-top: 1rem;
-  color: #c7525b;
+  color: var(--down-txt-color);
   font-weight: bold;
   font-size: 0.8rem;
 }
@@ -183,7 +190,7 @@ nav span {
 
   .b-card {
     margin-bottom: 0;
-    margin-top: 1rem;
+    margin-top: 0;
     padding: 20px;
   }
 }
