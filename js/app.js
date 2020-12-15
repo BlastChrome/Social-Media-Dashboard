@@ -8,6 +8,7 @@ var smallCardText = document.querySelectorAll('.big-text');
 
 
 DarkButton.addEventListener('click', function () {
+    console.log("btn clicked");
     background.classList.toggle('dark-mode-bg');
     navText.classList.toggle('dark-mode-text');    
     
